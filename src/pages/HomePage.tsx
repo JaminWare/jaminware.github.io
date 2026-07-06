@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { ContactForm, ArticleCard } from '../components';
 
 const skills = [
-  'Hardware Troubleshooting', 'TCP/IP Networking', 'EHR Systems',
-  'React', 'Tailwind CSS', 'Supabase',
+  'Hardware Troubleshooting', 'TCP/IP Networking', 'IT Support',
+  'React', 'Tailwind CSS', 'Supabase', 'Bolt',
 ];
 
 const stats = [
