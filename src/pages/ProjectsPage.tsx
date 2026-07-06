@@ -4,7 +4,7 @@ const projects = [
   {
     title: 'Learners Hub',
     description:
-      'A comprehensive web platform developed to centralize technical articles, study tips, and resources for the 2026-RTT-23 Per Scholas cohort. I engineered data management pipelines and integrated a clean, high tech UI to streamline peer collaboration all built within my first two weeks of learning web development.',
+      'A comprehensive web platform developed to centralize technical articles, study tips, and resources for the 2026 RTT 23 Per Scholas cohort. I engineered data management pipelines and integrated a clean, high tech UI to streamline peer collaboration all built within my first two weeks of learning web development.',
     tags: ['Bolt', 'React', 'Tailwind CSS', 'Supabase'],
     status: 'Live',
     liveHref: 'https://jaminware.github.io/Per-Scholas-Knowledge-Hub/',
