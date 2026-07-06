@@ -1,4 +1,4 @@
-import { Github, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
@@ -7,7 +7,6 @@ const projects = [
       'A comprehensive web platform developed to centralize technical articles, study tips, and resources for the 2026-RTT-23 Per Scholas cohort. I engineered data management pipelines and integrated a clean, high tech UI to streamline peer collaboration all built within my first two weeks of learning web development.',
     tags: ['Bolt', 'React', 'Tailwind CSS', 'Supabase'],
     status: 'Live',
-    githubHref: 'https://github.com/YOUR_GITHUB_USERNAME/learners-hub',
     liveHref: 'https://jaminware.github.io/Per-Scholas-Knowledge-Hub/',
   },
 ];
@@ -60,15 +59,6 @@ export default function ProjectsPage() {
                   View Live Site
                 </a>
               )}
-              <a
-                href={project.githubHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-zinc-800 border border-zinc-700 text-xs font-medium text-zinc-300 hover:border-zinc-500 hover:text-zinc-100 transition-colors"
-              >
-                <Github className="w-3.5 h-3.5" />
-                View on GitHub
-              </a>
             </div>
           </div>
         ))}
