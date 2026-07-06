@@ -64,7 +64,7 @@ const experiences = [
     skills: ['Lead Generation', 'Sales', 'Renewable Energy'],
   },
   {
-    role: 'Lab Supervisor (Work-Study)',
+    role: 'Lab Supervisor (Work Study)',
     company: 'University of Connecticut',
     period: 'Sep 2019 to May 2020',
     description:

@@ -12,6 +12,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import ExperiencePage from './pages/ExperiencePage';
 import ContactPage from './pages/ContactPage';
 import ArticlePage from './pages/ArticlePage';
+import { ScrollToTop } from './components';
 
 const navItems = [
   { to: '/', icon: Home, label: 'Home' },
@@ -112,6 +113,7 @@ export default function App() {
 
         {/* Page Content */}
         <div className="flex-1 overflow-y-auto p-6 md:p-8">
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
