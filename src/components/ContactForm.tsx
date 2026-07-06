@@ -3,7 +3,7 @@ import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 
 type Status = 'idle' | 'loading' | 'success' | 'error';
 
-const FORM_ENDPOINT = import.meta.env.VITE_FORM_ENDPOINT || 'https://formspree.io/f/YOUR_FORM_ID';
+const FORM_ENDPOINT = 'https://formspree.io/f/mzdloogn';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
