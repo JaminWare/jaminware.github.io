@@ -36,11 +36,13 @@ export default function ArticlePage() {
         <section className="space-y-3">
           <h2 className="text-lg font-semibold text-zinc-200">Introduction</h2>
           <p className="text-sm text-zinc-400 leading-relaxed">
-            After three years of field IT and logistics work optimizing routing systems,
-            troubleshooting hardware, and configuring connected devices I made the leap
-            into software engineering through the Per Scholas 2026 RTT 23 cohort. The challenge
-            was immediate: build a centralized study platform for our entire class within just
-            two weeks of learning web development.
+            After three years of field IT and logistics work optimizing routing systems
+            troubleshooting hardware and configuring connected devices I transitioned into
+            the Per Scholas AI Enabled Healthcare IT Technician program. Being in the very
+            first cohort for this specialized track my initial goal was simply to document
+            the unique learner experience. However I quickly saw the urgent need to migrate
+            our scattered resources and shared insights into a single centralized hub leading
+            me to build this platform within my first two weeks of web development.
           </p>
           <p className="text-sm text-zinc-400 leading-relaxed">
             Rather than seeing this as an obstacle, I recognized it as an opportunity to apply
