@@ -84,23 +84,20 @@ export default function ArticlePage() {
         <section className="space-y-3">
           <h2 className="text-lg font-semibold text-zinc-200">Data Architecture</h2>
           <p className="text-sm text-zinc-400 leading-relaxed">
-            The real breakthrough came in how I engineered the data management and content
-            ingestion pipelines. The platform needed to surface dozens of articles across
-            multiple categories, and the content had to remain easy for non technical
-            contributors to update.
+            The real breakthrough came in how I engineered the data management and admin
+            infrastructure. The platform needed a secure scalable way to handle content
+            ingestion. I built a dedicated admin portal that acts as a centralized dashboard
+            and queue for all article submissions and assigned admins. This provided a
+            professional interface to review approve and manage content directly within
+            the application.
           </p>
           <p className="text-sm text-zinc-400 leading-relaxed">
-            I designed a hybrid approach: articles are authored in Markdown for clean formatting
-            and developer ergonomics, while the metadata and categorization layer is managed
-            through Google Sheets. This gave the team a familiar spreadsheet interface for
-            organizing content, adding tags, setting publish dates, assigning categories,
-            while I handled the pipeline that ingested that data into Supabase.
-          </p>
-          <p className="text-sm text-zinc-400 leading-relaxed">
-            This architecture meant content updates were seamless. A teammate could add a new
-            article row in the shared Google Sheet, and the platform would reflect it without
-            any code changes or redeployment. It was a small decision with outsized impact on
-            the team's productivity.
+            As the platform scaled I noticed overlapping logic across different components.
+            To optimize the architecture I refactored the application to establish a single
+            universal source of truth for each section. By centralizing the data flow I
+            successfully deleted over 400 lines of redundant code. This not only made the
+            codebase significantly cleaner and more performant but it solidified my
+            understanding of efficient state management.
           </p>
         </section>
 

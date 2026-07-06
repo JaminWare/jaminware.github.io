@@ -10,7 +10,7 @@ const skills = [
 const stats = [
   { value: '3+', label: 'Field IT & Logistics Experience' },
   { value: 'Passed', label: 'CompTIA A+ Core 1, Score: 814' },
-  { value: '100%', label: 'Healthcare IT Compliance' },
+  { value: '100%', label: 'Agile Deployment & Hardware Operations' },
 ];
 
 export default function HomePage() {
@@ -18,16 +18,25 @@ export default function HomePage() {
     <div className="max-w-3xl space-y-10">
       {/* Hero */}
       <section className="space-y-6">
-        <div className="space-y-3">
-          <p className="text-sm font-medium text-sky-400">Hello, I'm Jamin</p>
-          <h1 className="text-4xl md:text-5xl font-bold text-zinc-100 leading-tight">
-            IT Professional &{' '}
-            <span className="text-gradient">Healthcare IT Technician</span>
-          </h1>
-          <p className="text-lg text-zinc-400 leading-relaxed max-w-xl">
-            Expanding into modern web development and AI engineering. I bring 3+ years of
-            hands on field IT, networking, and logistics experience to every project I build.
-          </p>
+        <div className="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-6">
+          <div className="space-y-3 flex-1">
+            <p className="text-sm font-medium text-sky-400">Hello, I'm Jamin</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-zinc-100 leading-tight">
+              IT Professional &{' '}
+              <span className="text-gradient">Healthcare IT Technician</span>
+            </h1>
+            <p className="text-lg text-zinc-400 leading-relaxed max-w-xl">
+              Expanding into modern web development and AI engineering. I bring 3+ years of
+              hands on field IT, networking, and logistics experience to every project I build.
+            </p>
+          </div>
+          <div className="flex-shrink-0 mx-auto md:mx-0">
+            <img
+              src="/Portfolio_Picture.jpg"
+              alt="Jamin Ware"
+              className="w-36 h-36 md:w-44 md:h-44 rounded-full object-cover border-2 border-zinc-700 shadow-lg"
+            />
+          </div>
         </div>
 
         <div className="flex flex-wrap gap-3">
