@@ -33,8 +33,8 @@ export default function App() {
             <User className="w-5 h-5 text-white" />
           </div>
           <div>
-            <h1 className="text-sm font-semibold text-zinc-100">Portfolio</h1>
-            <p className="text-xs text-zinc-500">Developer</p>
+            <h1 className="text-sm font-semibold text-zinc-100">Jamin Ware</h1>
+            <p className="text-xs text-zinc-500">IT & Software</p>
           </div>
         </div>
 
@@ -78,7 +78,7 @@ export default function App() {
             <div className="w-8 h-8 rounded-full bg-gradient-to-br from-sky-400 to-sky-600 flex items-center justify-center">
               <User className="w-4 h-4 text-white" />
             </div>
-            <span className="text-sm font-semibold text-zinc-100">Portfolio</span>
+            <span className="text-sm font-semibold text-zinc-100">Jamin Ware</span>
           </div>
           <h2 className="hidden md:block text-sm font-medium text-zinc-400">
             {navItems.find((item) => item.to === location.pathname)?.label ?? 'Home'}
