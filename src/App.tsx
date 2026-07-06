@@ -64,7 +64,7 @@ export default function App() {
               <span className="text-xs font-medium text-zinc-300">Available for work</span>
             </div>
             <p className="text-xs text-zinc-500 leading-relaxed">
-              Open to freelance projects and full-time opportunities.
+              Open to freelance projects and full time opportunities.
             </p>
           </div>
         </div>
