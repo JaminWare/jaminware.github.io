@@ -114,16 +114,12 @@ export default function ArticlePage() {
             two week window.
           </p>
           <p className="text-sm text-zinc-400 leading-relaxed">
-            I worked closely with Redeem and Lashawnta to bring the platform to life. Together
-            we established a workflow: I owned the technical architecture and data pipelines,
-            while coordinating with them on content curation, UX feedback, and testing. This
-            collaborative dynamic mirrored real engineering teams, with code reviews, standups, and
-            shared accountability.
-          </p>
-          <p className="text-sm text-zinc-400 leading-relaxed">
-            The experience reinforced something I already knew from my IT career: great
-            technology is never built in isolation. The Learners Hub succeeded because we
-            combined strong technical execution with clear communication and shared ownership.
+            While I architected and built the platform independently using Bolt, I established
+            continuous feedback loops with my peers to ensure the Hub met the actual needs of
+            the cohort. I released early versions of the platform to the class and rapidly
+            iterated based on their UX feedback and feature requests. This dynamic mirrored
+            real engineering environments where solo technical execution meets rigorous user
+            testing and shared accountability.
           </p>
         </section>
 
