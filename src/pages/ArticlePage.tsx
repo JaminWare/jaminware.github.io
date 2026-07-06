@@ -41,8 +41,11 @@ export default function ArticlePage() {
             the Per Scholas AI Enabled Healthcare IT Technician program. Being in the very
             first cohort for this specialized track my initial goal was simply to document
             the unique learner experience. However I quickly saw the urgent need to migrate
-            our scattered resources and shared insights into a single centralized hub leading
-            me to build this platform within my first two weeks of web development.
+            our spread resources and shared insights into a single centralized hub leading
+            me to build this platform within my first two weeks of web development. I decided
+            to venture into web development because I was able to adapt to the scaling and
+            overcoming many different types of debugging. I felt resilient and the process
+            was incredibly rewarding.
           </p>
           <p className="text-sm text-zinc-400 leading-relaxed">
             Rather than seeing this as an obstacle, I recognized it as an opportunity to apply
