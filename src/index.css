@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.zinc.700') transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: theme('colors.zinc.700');
+    border-radius: 3px;
+  }
+
+  ::selection {
+    background-color: theme('colors.sky.500 / 30%');
+    color: theme('colors.zinc.100');
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-zinc-900/60 backdrop-blur-xl border border-zinc-700/50;
+  }
+
+  .card-gradient {
+    @apply bg-gradient-to-r from-zinc-900 to-zinc-950 border border-zinc-700/60;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-sky-400 to-sky-500 bg-clip-text text-transparent;
+  }
+}
