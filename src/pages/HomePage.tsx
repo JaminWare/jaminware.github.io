@@ -92,6 +92,7 @@ export default function HomePage() {
           excerpt="A deep dive into how I leveraged my IT systems background to architect and deploy a centralized study platform for my cohort within my first two weeks of web development."
           date="July 2026"
           tags={['Full Stack', 'React', 'Rapid Learning']}
+          href="/article/learners-hub"
         />
       </section>
 

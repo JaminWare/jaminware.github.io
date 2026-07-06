@@ -11,6 +11,7 @@ import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ExperiencePage from './pages/ExperiencePage';
 import ContactPage from './pages/ContactPage';
+import ArticlePage from './pages/ArticlePage';
 
 const navItems = [
   { to: '/', icon: Home, label: 'Home' },
@@ -116,6 +117,7 @@ export default function App() {
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/experience" element={<ExperiencePage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/article/learners-hub" element={<ArticlePage />} />
           </Routes>
         </div>
       </main>
