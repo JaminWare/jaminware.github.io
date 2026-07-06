@@ -1,4 +1,4 @@
-import { Github } from 'lucide-react';
+import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
@@ -8,6 +8,7 @@ const projects = [
     tags: ['Bolt', 'React', 'Tailwind CSS', 'Supabase'],
     status: 'Live',
     githubHref: 'https://github.com/YOUR_GITHUB_USERNAME/learners-hub',
+    liveHref: 'https://jaminware.github.io/Per-Scholas-Knowledge-Hub/',
   },
 ];
 
@@ -47,7 +48,18 @@ export default function ProjectsPage() {
               ))}
             </div>
 
-            <div className="pt-1">
+            <div className="flex flex-wrap gap-3 pt-1">
+              {project.liveHref && (
+                <a
+                  href={project.liveHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-sky-500 to-sky-400 text-white text-xs font-bold shadow-[0_0_15px_rgba(56,189,248,0.3)] hover:shadow-[0_0_25px_rgba(56,189,248,0.5)] transition-all"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  View Live Site
+                </a>
+              )}
               <a
                 href={project.githubHref}
                 target="_blank"
