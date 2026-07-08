@@ -48,10 +48,11 @@ export default function ArticlePage() {
             was incredibly rewarding.
           </p>
           <p className="text-sm text-zinc-400 leading-relaxed">
-            Rather than seeing this as an obstacle, I recognized it as an opportunity to apply
+            Rather than seeing this as an obstacle I recognized it as an opportunity to apply
             the same systems thinking I used in IT infrastructure to a brand new domain. The
-            result was the Learners Hub, a responsive, data driven web application that became
-            the go to resource for our cohort's technical articles, study tips, and shared knowledge.
+            result is the Learners Hub a responsive data driven web application that I hope
+            becomes the go to resource for our cohort and future cohorts to centralize
+            technical articles study tips and shared knowledge.
           </p>
         </section>
 
